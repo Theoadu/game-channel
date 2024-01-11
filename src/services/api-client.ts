@@ -6,3 +6,5 @@ export default axios.create({
     key: process.env.RAWG_KEY,
   },
 });
+
+console.log(process.env.RAWG_KEY);
